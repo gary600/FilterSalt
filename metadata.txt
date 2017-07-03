@@ -10,7 +10,7 @@
 name=FilterSalt
 qgisMinimumVersion=2.0
 description=Filters out "salt and pepper" contour lines
-version=0.1
+version=1.0
 author=Gary B
 email=gpbailey01@bvsd.org
 
@@ -32,7 +32,7 @@ homepage=https://github.com/gary600/FilterSalt
 category=Vector
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
