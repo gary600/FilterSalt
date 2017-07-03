@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=FilterSalt
+qgisMinimumVersion=2.0
+description=Filters out "salt and pepper" contour lines
+version=0.1
+author=Gary B
+email=gpbailey01@bvsd.org
+
+about=Filters out vectors of less than a given size.
+
+tracker=https://github.com/gary600/FilterSalt/issues
+repository=https://github.com/gary600/FilterSalt.git
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=polyline, vector
+
+homepage=https://github.com/gary600/FilterSalt
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
